@@ -3,8 +3,9 @@
 
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
 </head>
 
 <body>
@@ -12,6 +13,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"> 
             <img src="nail.png" width="60" height="60" class="d-inline-block align-top" alt=""></img>
@@ -24,24 +29,227 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <!--    <div class="navbar-nav"> -->
             <a class="nav-item nav-link active" href="#book">Book an Appoinment<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#time">Time and Location</a>
+            <a class="nav-item nav-link" href="#time">Time</a>
             <a class="nav-item nav-link" href="#pricing">Pricing</a>
-            <a class="nav-item nav-link" href="#contact">Contact</a>
+            <a class="nav-item nav-link" href="#contact">Contact Us</a>
         </div>
     </nav>
     <header></header>
-    <section class="container book-an-appointment" id="book">
-        book an appointment
+    <section class="container Book an appointment" id="book">
+        <h1>Book an appointment:</h1>
+        <br>
+        <h1> </h1>
+        <div class="row">
+            <div class="col-md-3">
+                <span class="book-an-appointment-label">
+                    <h4>Date</h4>
+                </span>
+            </div>
+            <div class="col-md-3">
+                <span class="Book an appointment-label">
+                    <h4>Time</h4>
+                </span>
+            </div>
+            <div class="col-md-3">
+                <span class="Book an appointment-label">
+                    <h4>Services</h4>
+                </span>
+            </div>
+            <div class="col-md-3">
+                <span class="Book an appointment-label">
+                    <h4>Name </h4>
+                </span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <span class="Book an appointment">$10.00</span>
+            </div>
+            <div class="col-md-3">
+                <span class="Book an appointment">$15.00</span>
+            </div>
+            <div class="col-md-3">
+                <span class="Book an appointment">$30.00</span>
+            </div>
+            <div class="col-md-3">
+                <span class="Book an appointment">$40.00</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+        </div>
+
+
     </section>
-    <section class="container time-and-location" id="time">
-        time and location
+
+    <section class="container pricing wow fadeInDown" id="pricing">
+        <h1>Pricing:</h1>
+        <br>
+        <h1> </h1>
+        <div class="row">
+            <div class="col-md-3">
+                <span class="pricing-label">
+                    <h4>Lacquer</h4>
+                </span>
+            </div>
+            <div class="col-md-3">
+                <span class="pricing-label">
+                    <h4>Gel</h4>
+                </span>
+            </div>
+            <div class="col-md-3">
+                <span class="pricing-label">
+                    <h4>French Tip</h4>
+                </span>
+            </div>
+            <div class="col-md-3">
+                <span class="pricing-label">
+                    <h4>Acrylic</h4>
+                </span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <span class="prices">$10.00</span>
+            </div>
+            <div class="col-md-3">
+                <span class="prices">$15.00</span>
+            </div>
+            <div class="col-md-3">
+                <span class="prices">$30.00</span>
+            </div>
+            <div class="col-md-3">
+                <span class="prices">$40.00</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+        </div>
+
+
     </section>
-    <section class="container pricing" id="pricing">
-        pricing
+
+    <section class="container time" id="time">
+        <h1>Time:</h1>
+        <br>
+        <h1> </h1>
+        <div class="row">
+            <div class="col-md-3">
+                <span>
+                    <h4>Monday-Thursday</h4>
+                </span>
+            </div>
+            <div class="col-md-3">
+                <span>
+                    <h4>Friday</h4>
+                </span>
+            </div>
+            <div class="col-md-3">
+                <span>
+                    <h4>Saturday</h4>
+                </span>
+            </div>
+            <div class="col-md-3">
+                <span>
+                    <h4>Sunday</h4>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <span class="Monday-Thursday">10:30am - 9:00pm</span>
+            </div>
+            <div class="col-md-3">
+                <span class="Friday">10:30am - 8:30pm</span>
+            </div>
+            <div class="col-md-3">
+                <span class="Saturday">9:30am - 7:30pm</span>
+            </div>
+            <div class="col-md-3">
+                <span class="Sunday">11:00am - 6:00pm</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+            <div class="col-md-4">
+                <span><strong> </strong></span>
+            </div>
+            <div class="col-md-4">
+                <span><strong> </strong></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p> </p>
+            </div>
+            <div class="col-md-4">
+                <span><strong> </strong></span>
+            </div>
+            <div class="col-md-4">
+                <span><strong> </strong></span>
+            </div>
+        </div>
     </section>
+
     <section class="container contact" id="contact">
-        contact
+        <div class="row">
+            <div class="col-md-4">
+                <h1>Contact Us</h1>
+                <i class="fas fa-home"></i> Address: 859 West Forest, 11023 NY
+                <p></p>
+                <i class="fas fa-envelope"></i> Email: nails2cute@gmail.com
+                <p></p>
+                <i class="fas fa-phone"></i> Phone Number: (718)-134-3253
+                <p></p>
+                <i class="fas fa-globe"></i> Website: nails2cute.com
+                <p></p>
+            </div>
+        </div>
+
     </section>
+
 </body>
 
 </html>
